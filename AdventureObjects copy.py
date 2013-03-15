@@ -94,7 +94,15 @@ class CharacterSetup:
             self.magicAbility += 1.0
             self.magicPoints += 15.0
 
-        self.stats = [{'Level':self.level}, {'Experience':self.experience}, {'Max Health':self.maxHealth}, {'Strength':self.strength}, {'Swiftness':self.swiftness}, {'Defense':self.defense}, {'Melee Ability':self.meleeAbility}, {'Range Ability':self.rangeAbility}, {'Magic Ability':self.magicAbility}, {'Magic Points':self.magicPoints}]
+        self.stats = [ {'Level':self.level}, {'Experience':self.experience}, 
+        
+        {'Max Health':self.maxHealth}, {'Strength':self.strength}, 
+        
+        {'Swiftness':self.swiftness}, {'Defense':self.defense}, 
+        
+        {'Melee Ability':self.meleeAbility}, {'Range Ability':self.rangeAbility}, 
+        
+        {'Magic Ability':self.magicAbility}, {'Magic Points':self.magicPoints} ]
 
 
 class Pack:
