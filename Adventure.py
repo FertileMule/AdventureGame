@@ -1,7 +1,7 @@
 #
 # A text based adventure game!
 #
-# Created by: Dalton Woodard
+# Created by: woodD
 #
 # Version: 1.0
 #
@@ -36,15 +36,15 @@ def main():
 
     elif choice == '2':
         pass
-        #Insert saved game function here!
+        # Not yet implemented
 
     elif choice == '3':
         pass
-        #Insert instructions here!
+        # Not yet implemented
         
     elif choice == '4':
         pass
-        #Insert ReadMe file here!
+        # Not yet implemented
 
 def setup():
     '''Setup for character at beginning of game.'''
