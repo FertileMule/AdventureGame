@@ -38,7 +38,15 @@ def levelUp(c):
     c.magicAbility += 1.0
     c.magicPoints += 10
 
-    c.stats = [{'Level':c.level}, {'Experience':c.experience}, {'Max Health':c.maxHealth}, {'Strength':c.strength}, {'Swiftness':c.swiftness}, {'Defense':c.defense}, {'Melee Ability':c.meleeAbility}, {'Range Ability':c.rangeAbility}, {'Magic Ability': c.magicAbility}, {'Magic Points':c.magicPoints}]
+    c.stats = [ {'Level':c.level}, {'Experience':c.experience}, 
+    
+    {'Max Health':c.maxHealth}, {'Strength':c.strength}, 
+    
+    {'Swiftness':c.swiftness}, {'Defense':c.defense}, 
+    
+    {'Melee Ability':c.meleeAbility}, {'Range Ability':c.rangeAbility}, 
+    
+    {'Magic Ability': c.magicAbility}, {'Magic Points':c.magicPoints} ]
 
     print
     print("Congratulations! You're now level {}!".format(c.level))
