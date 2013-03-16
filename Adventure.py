@@ -12,7 +12,7 @@ import random as r
 import time as t
 import AdventureObjects as ao
 import AdventureHelpers as ah
-import adventureareas as areas
+import AdventureAreas as areas
 
 
 def main():
